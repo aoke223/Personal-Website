@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Personal Website </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/965032c4ca.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+        <div class="hero">
+            <nav>
+                <img src="images/logo_Aj.png" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about-me">ABOUT</a></li>
+                    <li><a href="#proj">PROJECTS</a></li>
+                </ul>
+            </nav>
+            <div class="detel">
+                <h1>I'm Ajibola <span>Oke</span></h1>
+                <h2>Developer</h2>
+                <p>
+                    <br> AJ for short, and this is my official website.
+                    <br>Showcasing myself and experiences
+                </p>
+            <a href="https://www.linkedin.com/in/ajibola-oke-b05bb0254/">Heres my LinkedIN</a>
+            </div>
+            <div class="images">
+                <img src="images/shape.png" class="shape">
+                <img src="images/Oke_Ajibola_Aj_G11_2019_5732 (1).jpg" class="picture">
+            </div>
+        </div> 
+        </div>
+    </body>
+    <!-- about section start -->
+    <section class="About-me">
+        <div id="about-me">
+        <div class="About-sec">
+            <div class="about-content">  
+                <div class="left">
+                    <img src="images/biz-1-pose-5.png" class="point">
+
+                </div>
+                <!-- left side  -->
+                <div class="right">
+                    <p class="text">
+                        <h3> About Me</h3>
+                    <!-- img src="images/pointing.png" class="pointer" -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Coding Side')">Coding Side</p>
+                        <p class="tab-links" onclick="opentab('Non-Coding Side')">Non-Coding Side</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Technical Skills')">Technical Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Coding Side">
+                        <ul>
+                            <center><h4> Coding Side:</h4></center>
+                            <li><center>Diligent, Proactive developer with 3 years of coding experiences.</center></li>
+                            <li><center>I am an engineering student, currently in a 3-2 computer engineering Bachelor's program.</center> </li>
+                            <li><center>I have done a few projects, with focuses in Python, HTML, and javascript. </center></li>
+                            <li><center>Speacialties include, Blockchain, Data structures, Machine Learning, Debugging, and Object-oriented programming.</center></li>
+                            <li><center>I am a active member at Bates College, being in multiple tech clubs and sports clubs.</center></li>
+                            <center><p><h4>Relevant Coursework:</h4></p></center>
+                            <li>Intro to python programming - Digital Logic - Data Structures </li>
+                            <li>Assembly language Programming - Analysis of algorithms - Linear Algebra </li>
+                            <li>Differential Equations - Electricity and Magnetism </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Non-Coding Side">
+                        <ul>
+                            <center><h5> Non-Coding Side:</h5></center>
+                            <li><center>My passions outside of coding include running, lifting, playing basketball, chess, and photography.</center></li>
+                            <li><center>I do love animals, all types of animals, my favorite being the rare Ili Pika mammal out of Northwest China.</center></li>
+                            <li><center>I am also a car lover, especially muscle and sports cars (but who isn't).</center></li>
+                            <li><center>In my down time I love to watch old 90's sitcoms, especially Seinfeld and The King of Queens. </center></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents blake" id="Experience">
+                        <ul>
+                            <center><g><h10>Club: Bates Tech - <span>Member</span> :</h10></g></center>
+                            <li>Organized events with other clubs such as the Fem Stems. </li>
+                            <li>Hosted study sessions and technical interview development sessions.</li>
+                            <li>Hosted in house coding challenges and robotics competitions.</li>
+                            <center><p><h11>Forage Backend Lyft Simulation - <span>Attendee</span> :</h11></p></center>
+                            <li>I participated in the Backend Lyft job simulation offered by forage. </li>
+                            <li>We were given a final functioning goal together with incorrect base code and asked to fix, refactor,and implement a working code.</li>
+                            <li>Gained practical experience, peeking into a day in the life of a company developer.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents blake" id="Technical Skills">
+                        <ul>
+                            <center><h4> Technical Skills :</h4></center>
+                            <center><p><h13>Languages:</h13></p></center>
+                            <center><li> I am highly proficient in Python and proficient in HTML.</li></center>
+                            <center><li>I would categorize myself as competent in javascript and CSS, while being an advanced beginner in Verilog.</li></center>
+                            <center><p><h14>Technologies:</h14></p></center>
+                            <center><li> The main tech I use is Visual Studio Code, and I have background in Jupyter Notebook, ReactJS, and Colabratory </li></center>
+                        </ul>
+                    </p>
+                    </p>
+                    </div>
+                <!-- right side  -->
+                
+            </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                } 
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        </div>
+        </div>
+    </section>
+    
+    <!-- about section end -->
+
+    <section class="projects">
+        <div id="proj">
+        <div class="projects-sec">
+            <h9><center>projects</center></h9>
+            <div class="projects-cont">
+                <div class="picproj">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5943b11db3db2be040e6fa54/1526228388073-OV5CW9SOJULLH9F8ZLXM/Image-coding.jpg?format=1500w" class="projpic">
+                    
+                </div>
+                <ul class="proj">
+                    <center><h10>Wordle Project -</h10><span><em> Python</em></span></center>
+                    <li>Developed an algorithm by myself with my professor providing the graphical user interface. A game app with inspiration from the New York Times wordle game, using Visual Studio Code.
+                    </li>
+                    <center><h11>Sudoku Solver -</h11><span><em> Python | HTML
+                    </em></span></center>
+                    <li>Developed completely by myself. Made a playable sudoku board game, with access to click the spacebar to solve the board if the user gets stuck. </li>
+                    <center><h12>Path Finding Algorithm -</h12><span><em> Python</em></span></center>
+                    <li>Developed by myself. A path finding algorithm where the user identifies the start and end points, identifies any blockage points, and the algorithm will find the shortest possible path to take. 
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <h1>Contact Me ;)</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i>aoke@bates.edu</p>
+                    <p><i class="fa-solid fa-square-phone"></i>(908)838-3101</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</html>
