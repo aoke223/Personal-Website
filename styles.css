@@ -215,6 +215,7 @@ images{
     position: fixed;
     /*left: 50%; */
     bottom: 0px;
+    padding: 100px;
 }
 
 .about-content h4{
