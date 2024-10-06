@@ -106,7 +106,7 @@ images{
 
 /* about sec*/
 .About-me{
-    min-height: 100vh;
+    min-height: 150vh;
     background-color: cadetblue;
     color: antiquewhite;
 }
@@ -239,7 +239,7 @@ images{
 .projects{
     min-height: 100vh;
     background-color: #eff4fd;
-    color: blue;
+    color: blue-gray;
     margin-top: 10px;
 }
 .projects-sec h9{
