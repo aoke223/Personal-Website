@@ -100,7 +100,7 @@ images{
 .images:hover .picture{
     left:45%
 }
-.images:hover .point{
+.images:hover .left{
     right:45%
 }
 .hero nav img {
@@ -136,6 +136,7 @@ images{
 }
 .left img {
     height: 1000px;
+    padding: auto;
 }
 
 .text{
