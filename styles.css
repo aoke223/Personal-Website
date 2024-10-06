@@ -10,6 +10,8 @@
     background: #eff4fd;
 }
 
+
+
 nav{
     display: flex;
     width: 84%;
@@ -237,7 +239,7 @@ images{
 .projects{
     min-height: 100vh;
     background-color: #eff4fd;
-    color: lightblue;
+    color: blue;
     margin-top: 10px;
 }
 .projects-sec h9{
@@ -265,6 +267,7 @@ images{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 
 .picproj {
     flex-basis: 35%;
