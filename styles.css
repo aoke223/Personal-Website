@@ -80,6 +80,7 @@ images{
     position: absolute;
     bottom: 0;
     right: 100px;
+    padding: auto;
 }
 
 .images img{
@@ -89,7 +90,7 @@ images{
     bottom: 0;
     transform: translateX(-13%);
     transition: bottom 1s, left 1s;
-    padding: auto;
+    
 }
 .images .picture{
     bottom: 10px;
